@@ -1,0 +1,11 @@
+☐ Mockdata (.json) med minst fem produkter
+☐ Produkterna har:
+  ☐ namn
+  ☐ bild
+  ☐ pris
+  ☐ beskrivning
+  ☐ antal i lager
+  ☐ id
+☐ /items-route som svarar med basinfo om alla items
+☐ /item/:id-route som svarar med detaljerad info om en item
+☐ Koden följer DRY och SRP
