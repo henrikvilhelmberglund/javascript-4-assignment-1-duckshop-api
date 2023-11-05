@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Duck painting",
+    "price": 299,
+    "description": "Add a touch of avian elegance to your home with this beautiful painting of a stately duck. The perfect decor for any bird enthusiast or art lover. Limited stock available.",
+    "amount_in_stock": 20,
+    "image_link": "https://henrikvilhelmberglund.com/javascript-4-assignment-1-duckshop-api/assets/duck-painting.webp"
+  },
+  {
+    "name": "Christmas plushie",
+    "price": 49.99,
+    "description": "Snuggle up to the holiday spirit with this adorable white and red Christmas plushie. Its soft, huggable design will make you smile all season long. Great as a gift or decoration.",
+    "amount_in_stock": 100,
+    "image_link": "https://henrikvilhelmberglund.com/javascript-4-assignment-1-duckshop-api/assets/christmas-plushie.webp"
+  },
+  {
+    "name": "Duck ball",
+    "price": 19.99,
+    "description": "Turn your Christmas tree into a winter wonderland with this duck-inspired Christmas ball ornament. Hang it up and let the quirkiness of the duck head brighten your holidays.",
+    "amount_in_stock": 50,
+    "image_link": "https://henrikvilhelmberglund.com/javascript-4-assignment-1-duckshop-api/assets/duck-ball.webp"
+  },
+  {
+    "name": "Duck plushie",
+    "price": 79.99,
+    "description": "Get ready for a quacking good time with this big, cuddly duck plushie wearing a Christmas hat. A festive addition to your home and a perfect companion for the holiday season.",
+    "amount_in_stock": 30,
+    "image_link": "https://henrikvilhelmberglund.com/javascript-4-assignment-1-duckshop-api/assets/duck-plushie.webp"
+  },
+  {
+    "name": "Tall cake",
+    "price": 39.99,
+    "description": "Indulge in the deliciously tempting world of this towering cake. With layers of rich chocolate and a creamy crown, it's a treat that's as visually stunning as it is mouthwateringly good.",
+    "amount_in_stock": 15,
+    "image_link": "https://henrikvilhelmberglund.com/javascript-4-assignment-1-duckshop-api/assets/tall-cake.webp"
+  },
+  {
+    "name": "Dog outfit",
+    "price": 24.99,
+    "description": "Dress your small dog in festive style with this cute Christmas-themed dog outfit. It's the paw-fect way to make your furry friend part of the holiday festivities.",
+    "amount_in_stock": 40,
+    "image_link": "https://henrikvilhelmberglund.com/javascript-4-assignment-1-duckshop-api/assets/dog-outfit.webp"
+  },
+  {
+    "name": "Fancy glass",
+    "price": 49.99,
+    "description": "Raise a toast in style with this very tall and fancy champagne glass featuring intricate ice crystal inlays. Elevate your celebrations and make every sip special.",
+    "amount_in_stock": 25,
+    "image_link": "https://henrikvilhelmberglund.com/javascript-4-assignment-1-duckshop-api/assets/fancy-glass.webp"
+  },
+  {
+    "name": "Thin champagne bottle",
+    "price": 59.99,
+    "description": "Pop the cork and ring in the new year with this slender champagne bottle. Its sleek design is perfect for elegant gatherings and unforgettable moments.",
+    "amount_in_stock": 30,
+    "image_link": "https://henrikvilhelmberglund.com/javascript-4-assignment-1-duckshop-api/assets/thin-champagne-bottle.webp"
+  },
+  {
+    "name": "Cake cover",
+    "price": 19.99,
+    "description": "Preserve the beauty of your small cakes with this intricate box and cover. Its design adds a touch of elegance and ensures that your cakes remain fresh and delightful.",
+    "amount_in_stock": 50,
+    "image_link": "https://henrikvilhelmberglund.com/javascript-4-assignment-1-duckshop-api/assets/cake-cover.webp"
+  },
+  {
+    "name": "Candle set",
+    "price": 29.99,
+    "description": "Create a cozy and festive atmosphere with this delightful candle set. Each candle comes wrapped in Christmas-like red bands and a white fluffy sock, adding a touch of holiday charm.",
+    "amount_in_stock": 60,
+    "image_link": "https://henrikvilhelmberglund.com/javascript-4-assignment-1-duckshop-api/assets/candle-set.webp"
+  },
+  {
+    "name": "Creepy dog statue",
+    "price": 39.99,
+    "description": "Meet this quirky and endearing small statue of a creepy but cute dog. Its colorful stomach, white head, brown nose, and cheeky tongue sticking out make it a unique conversation starter.",
+    "amount_in_stock": 10,
+    "image_link": "https://henrikvilhelmberglund.com/javascript-4-assignment-1-duckshop-api/assets/creepy-dog-statue.webp"
+  }
+]
