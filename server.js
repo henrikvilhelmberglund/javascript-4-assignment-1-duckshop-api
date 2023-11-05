@@ -10,7 +10,7 @@ const app = express();
 // Setting middleware
 app.use(cors());
 // API base URL here
-app.use("/api/v1/movies", router);
+app.use("/api/v1/", router);
 
 const PORT = process.env.PORT || 3001;
 
