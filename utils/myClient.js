@@ -5,6 +5,11 @@ import fs from "fs";
 import console from "hvb-console";
 
 export async function myClient(endpoint, id) {
+  const response = {
+    statusCode: 200,
+    message: "Success",
+  };
+
   let mockData = JSON.parse(fs.readFileSync("mock.json", "utf-8"));
 
   if (id) {
@@ -14,6 +19,10 @@ export async function myClient(endpoint, id) {
         return true;
       }
     });
+    if (mockData.length === 0) {
+      response.statusCode = 404;
+      response.message = `Product with id ${id} not found`;
+    }
   }
   // url = `${process.env.BASE_URL}${process.env.API_BASE}${endpoint}`;
 
@@ -29,5 +38,5 @@ export async function myClient(endpoint, id) {
   // const data = await response.json();
   // console.log(response);
   // console.log(mockData);
-  return { statusCode: 200, mockData };
+  return { ...response, mockData };
 }
