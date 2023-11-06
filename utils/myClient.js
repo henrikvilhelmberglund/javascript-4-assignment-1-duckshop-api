@@ -19,6 +19,8 @@ export async function myClient(endpoint, id) {
         return true;
       }
     });
+    // don't want an array here
+    mockData = mockData[0];
     if (mockData.length === 0) {
       response.statusCode = 404;
       response.message = `Product with id ${id} not found`;
