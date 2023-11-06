@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import { router } from "./routes/movies-routes.js";
+import { router } from "./routes/duckshop-routes.js";
 
 dotenv.config();
 
@@ -10,7 +10,7 @@ const app = express();
 // Setting middleware
 app.use(cors());
 // API base URL here
-app.use("/api/v1/", router);
+app.use(`${process.env.API_BASE}`, router);
 
 const PORT = process.env.PORT || 3001;
 
