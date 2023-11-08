@@ -14,4 +14,8 @@ app.use(`${process.env.API_BASE}`, router);
 
 const PORT = process.env.PORT || 3001;
 
-app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
+const SERVER_URL = process.env.HENRIK_PC ? "0.0.0.0" : "localhost";
+
+app.listen(PORT, SERVER_URL, () =>
+  console.log(`Server is running on ${SERVER_URL} on port ${PORT}`)
+);
