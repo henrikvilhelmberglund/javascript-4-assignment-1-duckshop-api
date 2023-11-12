@@ -8,4 +8,4 @@
   ✔ id @done(23-11-08 17:12)
 ✔ /items-route som svarar med basinfo om alla items @done(23-11-08 17:12)
 ✔ /item/:id-route som svarar med detaljerad info om en item @done(23-11-08 17:12)
-☐ Koden följer DRY och SRP
+✔ Koden följer DRY och SRP @done(23-11-12 21:45)
