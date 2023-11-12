@@ -1,11 +1,9 @@
-# express-api-template
+# DuckShop API
 
-Simple template for a Node Express API.
+`npm run dev`
 
-`server.js` - main entry point
+Litet fint API med 2 routes:
 
-`/controllers` - business logic
+`/api/v1/products` - hämtar alla produkter från mock.json
 
-`/routes` - routing, uses callbacks inside /controllers
-
-`/utils` - utilities that are used in /controllers for DRY
+`api/v1/product/:id` - hämtar en produkt med ID (... används inte alls för jag bara filtrerar /products istället)
