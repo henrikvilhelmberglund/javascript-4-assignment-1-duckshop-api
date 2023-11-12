@@ -9,7 +9,7 @@
     "dev": "nodemon server"
   },
   "keywords": [],
-  "author": "",
+  "author": "Henrik Berglund",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
